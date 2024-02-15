@@ -1,0 +1,49 @@
+
+.img{
+  width: 300px;
+  align-items: center;
+}
+.btn:hover{
+  background-color: brown;
+}
+
+.category-3{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .category {
+    display: none;
+  }
+  .category-3{
+    display: block;
+    
+  }
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
